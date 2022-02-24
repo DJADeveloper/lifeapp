@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  overflow: scroll;
+}
+
+.NavBar {
+  background-image: linear-gradient(to right bottom, #00cdac, #02aab0, #00cdac)
 }
 
 .App-logo {

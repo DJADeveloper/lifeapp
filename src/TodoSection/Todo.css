@@ -1,0 +1,36 @@
+.todoHome {
+  background-image: url('https://images.unsplash.com/photo-1561451213-d5c9f0951fdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80');
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.Color2 {
+  background-image: linear-gradient(to right bottom, #00cdac, #02aab0, #00cdac);
+}
+
+.TodoContainer {
+  height: 500px;
+  overflow: scroll;
+
+  overflow-x: hidden;
+}
+
+.Todo {
+  max-width: 800px;
+}
+
+.input {
+  width: 500px;
+  display: flex;
+}
+
+.userInput {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+}
